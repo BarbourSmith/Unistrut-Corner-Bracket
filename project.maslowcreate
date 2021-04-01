@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Profile",
-            "x": 0.20571010248901903,
-            "y": 0.2796934865900383,
+            "x": 0.20863836017569548,
+            "y": 0.3015267175572519,
             "uniqueID": 718822,
             "ioValues": [],
             "topLevel": false,
@@ -23,6 +23,10 @@
                     "y": 0.16475095785440613,
                     "uniqueID": 896658,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/741023/718822/760986Translate"
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -44,6 +48,10 @@
                     "y": 0.421455938697318,
                     "uniqueID": 760986,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/741023/718822/950821Rectangle"
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0.8125
@@ -88,6 +96,22 @@
                         },
                         {
                             "name": "3D shape 1",
+                            "ioValue": "atoms/741023/718822/968467Translate"
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": "atoms/741023/718822/760986Translate"
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": "atoms/741023/718822/896658Translate"
+                        },
+                        {
+                            "name": "3D shape 5",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 1",
                             "ioValue": 10
                         },
                         {
@@ -96,10 +120,6 @@
                         },
                         {
                             "name": "3D shape 4",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 5",
                             "ioValue": 10
                         }
                     ],
@@ -112,6 +132,10 @@
                     "y": 0.7739463601532567,
                     "uniqueID": 968467,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/741023/718822/760986Translate"
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 3.75
@@ -131,7 +155,13 @@
                     "name": "Output",
                     "x": 0.9853587115666179,
                     "y": 0.5,
-                    "ioValues": []
+                    "uniqueID": 897171,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/741023/718822/662669ShrinkWrap"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -174,7 +204,8 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 662669
+                    "ap1ID": 662669,
+                    "ap2ID": 897171
                 },
                 {
                     "ap1Name": "geometry",
@@ -192,13 +223,22 @@
             "x": 0.41288433382137624,
             "y": 0.3754789272030651,
             "uniqueID": 402005,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": "atoms/741023/440331/175172Assembly"
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": "atoms/741023/718822/662669ShrinkWrap"
+                }
+            ]
         },
         {
             "atomType": "Molecule",
             "name": "Cut Aways",
-            "x": 0.2232796486090776,
-            "y": 0.5555555555555556,
+            "x": 0.2247437774524158,
+            "y": 0.5458015267175573,
             "uniqueID": 440331,
             "ioValues": [],
             "topLevel": false,
@@ -245,6 +285,10 @@
                     "y": 0.5325670498084291,
                     "uniqueID": 272752,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/741023/440331/779116Circle"
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0.8125
@@ -307,7 +351,13 @@
                     "name": "Output",
                     "x": 0.9853587115666179,
                     "y": 0.5,
-                    "ioValues": []
+                    "uniqueID": 353996,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/741023/440331/175172Assembly"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -350,7 +400,8 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 175172
+                    "ap1ID": 175172,
+                    "ap2ID": 353996
                 },
                 {
                     "ap1Name": "Geometry",
@@ -370,6 +421,10 @@
             "uniqueID": 437387,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "atoms/741023/402005Difference"
+                },
+                {
                     "name": "height",
                     "ioValue": 0.25
                 }
@@ -381,31 +436,26 @@
             "x": 0.6486090775988287,
             "y": 0.5095785440613027,
             "uniqueID": 774533,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/741023/437387Extrude"
+                }
+            ],
             "selectedColorIndex": "7"
-        },
-        {
-            "atomType": "Add BOM Tag",
-            "name": "Add BOM Tag",
-            "x": 0.7869692532942899,
-            "y": 0.5632183908045977,
-            "uniqueID": 731908,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "Unistrut Corner Bracket",
-                "numberNeeded": 1,
-                "costUSD": 7.78,
-                "source": "https://www.mcmaster.com/33125T21/",
-                "totalNeeded": 1,
-                "radius": 0.015384615384615385
-            }
         },
         {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
             "y": 0.5,
-            "ioValues": []
+            "uniqueID": 843990,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "atoms/741023/774533Color"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -439,16 +489,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 774533,
-            "ap2ID": 731908
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 731908
+            "ap1ID": 774533,
+            "ap2ID": 843990
         }
     ],
     "fileTypeVersion": 1,

@@ -2,7 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Unistrut Corner Bracket|1|$7.78|https://www.mcmaster.com/33125T21/|
-|Total: |1|$7.78| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $23.34
+ 3xCOG MSRP: $0.00
